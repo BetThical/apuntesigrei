@@ -24,12 +24,12 @@ Sucesion finita de instrucciones precisas para realizar una tarea/calculo/resolv
 
 Siendo $x$ el elemento a buscar y $[a0,a1,...,an]$ la lista donde buscar
 
-Empezamos comparando x y a0
+Empezamos comparando $x$ y $a0$
 
-- Si x=a0, la solucion es la posicion de a0, es decir, 0
-- Si x=!0, se compara con el siguiente elemento(a1)
-    - Si x=a1, la solucion es la posicion de a1 (1)
-    - Si x=!a1 se compara con a2
+- Si $x=a0$, la solucion es la posicion de $a0$, es decir, $0$
+- Si $x \ne 0$, se compara con el siguiente elemento($a1$)
+    - Si $x=a1$, la solucion es la posicion de $a1 (1)$
+    - Si $x \ne a1$ se compara con $a2$
 
 Este proceso se repite hasta encontrar una coincidencia, y la solucion sera la posicion
 del termino donde se encuentre la coincidencia
