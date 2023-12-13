@@ -40,14 +40,19 @@ Si se recorre toda la lista sin encontrar coincidencias con x, la solucion sera 
 
 Siendo $x$ el elemento a buscar, y $[a_0,a_1,...a_n]$ una lista en orden creciente de tamaño
 
-- Se comienza comparando $x$ con el elemento central de la lista(a_m) $\lfloor \frac{len(lista)}/{2} \rfloor$
-    - Si x>am, la busqueda se restringe a la segunda mitad de la lista
-    - Si x>!am, la busqueda se restringe a la primera mitad de la lista
+- Se comienza comparando $x$ con el elemento central de la lista($a_m$) $\lfloor \frac{len(lista)}{2} \rfloor$
+    - Si $x>a_m$, la busqueda se restringe a la segunda mitad de la lista
+    - Si $x\nless a_m$, la busqueda se restringe a la primera mitad de la lista
 
 Siguiendo este proceso se van creando sublistas resultado de dividir la anterior a la mitad
 hasta llegar  a una lista de un elemento, que se comprueba si ese elemento coincide con x
 
 #### floor()
+ 
+$
+floor: \mathbb{R} \longrightarrow \mathbb{Z}
+\qquad x \rightarrow \lfloor x \rfloor
+$
  ```
 floor : R → Z
        x → floor(x)
