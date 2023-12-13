@@ -52,16 +52,16 @@ hasta llegar  a una lista de un elemento, que se comprueba si ese elemento coinc
 $floor: \mathbb{R} \longrightarrow \mathbb{Z}$
 
 $\qquad\quad x \rightarrow \lfloor x \rfloor$
- ```
-```   
-$floor(x)$ es el mayor entero z, $z \leqslant x$
 
-#### ceiling()
-```
-ceil : R → Z
-       x → ceil(x)
-```
-donde ceil(x) es el menor entero z | z>=x
+donde $floor(x)$ es el mayor entero $z$, $z \leq x$
+
+#### ceil()
+
+$ceil: \mathbb{R} \longrightarrow \mathbb{Z}$
+
+$\qquad\quad x \rightarrow \lceil x \rceil$
+
+donde $ceil(x)$ es el menor entero $z$, $z \geq x$
 
 
 ## Algoritmos vorazes (greedy) --> nuestro sistema monetario para el cambio de monedas
