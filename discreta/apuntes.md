@@ -49,9 +49,9 @@ hasta llegar  a una lista de un elemento, que se comprueba si ese elemento coinc
 
 #### floor()
  
-$$floor: \mathbb{R} \longrightarrow \mathbb{Z}
+$floor: \mathbb{R} \longrightarrow \mathbb{Z}$
 
-\qquad x \rightarrow \lfloor x \rfloor$$
+$\qquad x \rightarrow \lfloor x \rfloor$
  ```
 floor : R → Z
        x → floor(x)
