@@ -40,7 +40,7 @@ Si se recorre toda la lista sin encontrar coincidencias con x, la solucion sera 
 
 Siendo $x$ el elemento a buscar, y $[a_0,a_1,...a_n]$ una lista en orden creciente de tamaño
 
-- Se comienza comparando $x$ con el elemento central de la lista(a_m) $\lfloor {1}/{2} * len(lista) \rfloor
+- Se comienza comparando $x$ con el elemento central de la lista(a_m) $\lfloor {1}/{2} * len(lista) \rfloor$
     - Si x>am, la busqueda se restringe a la segunda mitad de la lista
     - Si x>!am, la busqueda se restringe a la primera mitad de la lista
 
