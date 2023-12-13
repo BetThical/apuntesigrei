@@ -22,7 +22,7 @@ Sucesion finita de instrucciones precisas para realizar una tarea/calculo/resolv
 
 ### Lineal
 
-Siendo x el elemento a buscar y [a0,a1,...,an] la lista donde buscar
+Siendo $x$ el elemento a buscar y $[a0,a1,...,an]$ la lista donde buscar
 
 Empezamos comparando x y a0
 
