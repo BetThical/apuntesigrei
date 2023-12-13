@@ -53,10 +53,8 @@ $floor: \mathbb{R} \longrightarrow \mathbb{Z}$
 
 $\qquad\quad x \rightarrow \lfloor x \rfloor$
  ```
-floor : R → Z
-       x → floor(x)
 ```   
-donde floor(x) es el mayor entero z | z<=x
+$floor(x)$ es el mayor entero z, $z \leqslant x$
 
 #### ceiling()
 ```
