@@ -101,25 +101,25 @@ Sea $f(x)$ un polinomio de grado $n$ $\rightarrow f(x) \in O(x^n)$
 
 ## Teorema 2
 
-Si $f(x) \in O(g(x))$ y $f'(x) \in O(g'(x))$
+Si $f(x) \in O(g(x))$,  $f'(x) \in O(g'(x))$
 
 $\longrightarrow (f+f')(x) \in O(max{\left|g(x)\right|, \left|g'(x)\right| })$ 
 
 ### Corolario
     
-Si $f(x)$ y $f'(x)$ $\in O(g(x))$
+Si $f(x)$,  $f'(x)$ $\in O(g(x))$
 
 $\longrightarrow (f+f')(x) \in O(g(x))$
 
 ## Teorema 3
 
-Si $f(x) \in O(g(x))$ y $f'(x) \in O(g'(x))$
+Si $f(x) \in O(g(x))$,  $f'(x) \in O(g'(x))$
 
 $\longrightarrow (f\times f')(x) \in O(g(x)\times g'(x))$
 
 ## Teorema 4 (prop transitiva)
 
-Si $f(x) \in O(g(x))$ y $g(x) \in O(h(x))$
+Si $f(x) \in O(g(x))$,  $g(x) \in O(h(x))$
 
 $\longrightarrow f(x) \in O(h(x))$
 
