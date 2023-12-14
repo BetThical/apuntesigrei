@@ -106,26 +106,28 @@ Si $f(x) \in O(g(x))$ y $f'(x) \in O(g'(x))$
 $\longrightarrow (f+f')(x) \in O(max{\left|g(x)\right|, \left|g'(x)\right| })$ 
 
 ### Corolario
+    
+Si $f(x)$ y $f'(x)$ $\in O(g(x))$
 
-    Si f(x) y f'(x) son O(g(x)) --> (f+f')(x) es O(g(x))
+$\longrightarrow (f+f')(x) \in O(g(x))$
 
 ## Teorema 3
 
-Si f(x) es O(g(x)) y f'(x) es O(g'(x))
+Si $f(x) \in O(g(x))$ y $f'(x) \in O(g'(x))$
 
-    (f*f')(x) es O(g(x)*g'(x))
+$\longrightarrow (f\timesf')(x) \in O(g(x)\timesg'(x))$
 
 ## Teorema 4 (prop transitiva)
 
-Si f(x) es O(g(x)) y g(x) es O(h(x))
+Si $f(x) \in O(g(x))$ y $g(x) \in O(h(x))#
 
-    f(x) es O(h(x))
+$\longrightarrow f(x) \in O(h(x))$
 
 ## Teorema 5
 
-Si f(x) es O(g(x))
+Si $f(x) \in O(g(x))$
 
-    a.f(x) es O(g(x)) para cualquier constante a
+$\longrightarrow a\timesf(x) \in O(g(x)), \forall a
 
 # Complejidad en tiempo
 
