@@ -89,7 +89,7 @@ o
 $f,g: \mathbb{R} \longrightarrow \mathbb{R}$ 
 
 
-$f(x) \in (g(x))$ si $\exists$ constantes $C,k > 0$, $\left|f(x)\right| \leq C \times \left|g(x)\right|$ si $x>k$
+$f(x) \in (g(x))$ si $\exists$ constantes $C,k > 0$ tal que $\left|f(x)\right| \leq C \times \left|g(x)\right|$ si $x>k$
 
 $O(g)$ son las funciones que **no crecen mas rapido** que $g$
 
