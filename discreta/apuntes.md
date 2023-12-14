@@ -186,11 +186,11 @@ $M3 \rightarrow 2^5 - 1 = 31$
 
 $M4 \rightarrow 2^7 - 1 = 127$
 
-$NO \rightarrow 2^11 - 1 = 2047 (23\times 89)$ 
+$NO \rightarrow 2^{11} - 1 = 2047 (23\times 89)$ 
 
-$M5 \rightarrow 2^13 - 1 = 8191$
+$M5 \rightarrow 2^{13} - 1 = 8191$
 
-$M51 \rightarrow 2^82589933 -1$
+$M51 \rightarrow 2^{82589933} -1$
 
 ## Teorema fundamental de la aritmetica
 
