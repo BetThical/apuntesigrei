@@ -119,7 +119,7 @@ $\longrightarrow (f\times f')(x) \in O(g(x)\times g'(x))$
 
 ## Teorema 4 (prop transitiva)
 
-Si $f(x) \in O(g(x))$ y $g(x) \in O(h(x))#
+Si $f(x) \in O(g(x))$ y $g(x) \in O(h(x))$
 
 $\longrightarrow f(x) \in O(h(x))$
 
