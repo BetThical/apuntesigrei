@@ -164,10 +164,9 @@ Sea $p \in \mathbb{Z}$,  $p>1$, se dice que $p$ es NUMERO PRIMO si sus divisores
 
 Un numero entero positivo que no sea primo, es compuesto
 
-a es unidad si (INVERSIBLE) ==> unidades de Z  = {-1,1}
-        
-    Existe b | a*b=1
-               a=1/b
+a es unidad si (INVERSIBLE) $\Longrightarrow$ uds $\mathbb{Z} =$ {$-1,1$}1
+
+$\longrightarrow \exists b$ tal que $a\times b=1$  $\rightarrow a=1/b$
 
 
 
