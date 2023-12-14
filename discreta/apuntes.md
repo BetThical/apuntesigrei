@@ -82,14 +82,14 @@ Una vez q un algortimo greedy encuentre una solucion factible, se debe determina
 
 Sean f y g funciones, 
 
-$f,g: \mathbb{Z} \longrightarow \mathbb{R}$ 
+$f,g: \mathbb{Z} \longrightarrow \mathbb{R}$ 
 
 o
 
-$f,g: \mathbb{R} \longrightarow \mathbb{R}$ 
+$f,g: \mathbb{R} \longrightarrow \mathbb{R}$ 
 
 
-$f(x) \in (g(x))$ si \exists constantes {C,k} > 0, \abs{f(x)} <= Cx\abs{g(x)} si x>k$
+$f(x) \in (g(x)) si \exists constantes {C,k} > 0, \abs{f(x)} <= Cx\abs{g(x)} si x>k$
 
 $O(g)$ son las funciones que **no crecen mas rapido** que $g$
 
