@@ -97,13 +97,13 @@ $O(g)$ son las funciones que **no crecen mas rapido** que $g$
 
 ## Teorema 1
 
-Sea f(x) un polinomio de grado n --> f(x) es O(x^n)
+Sea $f(x)$ un polinomio de grado $n$ $\rightarrow f(x) \in O(x^n)$
 
 ## Teorema 2
 
-Si f(x) es O(g(x)) y f'(x) es O(g'(x))
+Si $f(x) \in O(g(x))$ y $f'(x) \in O(g'(x))$
 
-    (f+f')(x) es O(max{ |g(x)|, |g'(x)| }) 
+$\longrightarrow (f+f')(x) \in O(max{\left|g(x)\right|, \left|g'(x)\right| })$ 
 
 ### Corolario
 
