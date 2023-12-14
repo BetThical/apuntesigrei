@@ -160,7 +160,7 @@ entonces todos los problemas en la clase NP, tambien se pueden resolver en tiemp
 
 # Numeros Primos
 
-Sea p un entero positivo >1, se dice que p es NUMERO PRIMO si sus divisores son 1 y p ==> {2,3,5,7,...}
+Sea $p \in \mathbb{X}$,  $p>1$, se dice que $p$ es NUMERO PRIMO si sus divisores son $1,p$ $\Longrightarrow \{2,3,5,7,...\}$
 
 Un numero entero positivo que no sea primo, es compuesto
 
