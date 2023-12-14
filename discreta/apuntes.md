@@ -80,12 +80,18 @@ Una vez q un algortimo greedy encuentre una solucion factible, se debe determina
 
 # Notacion Big-O
 
-Sean f y g funciones, f,g: Z --> R; o f,g: R --> R
+Sean f y g funciones, 
 
-    f(x) es O(g(x)) 
-    si existen constantes positivas C,k tal que |f(x)| <= C|g(x)| si x>k
+$f,g: \mathbb{Z} \longrightarow \mathbb{R}$ 
 
-O(g) son las funciones que no crecen mas rapido que g
+o
+
+$f,g: \mathbb{R} \longrightarow \mathbb{R}$ 
+
+
+$f(x) \in (g(x))$ si \exists constantes {C,k} > 0, \abs{f(x)} <= Cx\abs{g(x)} si x>k$
+
+$O(g)$ son las funciones que **no crecen mas rapido** que $g$
 
 ![bigO](images/bigO.png "bigo")
 
