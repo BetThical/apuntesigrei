@@ -115,7 +115,7 @@ $\longrightarrow (f+f')(x) \in O(g(x))$
 
 Si $f(x) \in O(g(x))$ y $f'(x) \in O(g'(x))$
 
-$\longrightarrow (f\timesf')(x) \in O(g(x)\timesg'(x))$
+$\longrightarrow (f\times f')(x) \in O(g(x)\times g'(x))$
 
 ## Teorema 4 (prop transitiva)
 
@@ -127,7 +127,7 @@ $\longrightarrow f(x) \in O(h(x))$
 
 Si $f(x) \in O(g(x))$
 
-$\longrightarrow a\timesf(x) \in O(g(x)), \forall a
+$\longrightarrow a\times f(x) \in O(g(x)), \forall a$
 
 # Complejidad en tiempo
 
