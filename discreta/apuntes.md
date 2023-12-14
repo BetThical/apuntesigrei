@@ -164,7 +164,7 @@ Sea $p \in \mathbb{Z}$,  $p>1$, se dice que $p$ es NUMERO PRIMO si sus divisores
 
 Un numero entero positivo que no sea primo, es compuesto
 
-a es unidad si (INVERSIBLE) $\Longrightarrow$ uds $\mathbb{Z} =$ { $-1,1$ }
+a es **unidad** si (INVERSIBLE) $\Longrightarrow$ uds $\mathbb{Z} =$ { $-1,1$ }
 
 $\longrightarrow \exists b$ tal que $a\times b=1$  $\rightarrow a=1/b$
 
@@ -176,16 +176,16 @@ Existen infinitos numeros primos
 
 ## Primos de MERSENNE
 
-2^p -1 con p primo, son primos
+$2^p -1$ con $p$ primo, son primos
     
-M1 --> $2^2 - 1 = 3$
+$M1 \rightarrow 2^2 - 1 = 3$
 
-    M2 --> 2^3 - 1 = 7
-    M3 --> 2^5 - 1 = 31
-    M4 --> 2^7 - 1 = 127
-    NO --> 2^11 - 1 = 2047 (23*89) 
-    M5 --> 2^13 - 1 = 8191
-    M51 --> 2^82589933 -1
+$M2 \rightarrow 2^3 - 1 = 7$
+$M3 \rightarrow 2^5 - 1 = 31$
+$M4 \rightarrow 2^7 - 1 = 127$
+$NO \rightarrow 2^11 - 1 = 2047 (23\times 89)$ 
+$M5 \rightarrow 2^13 - 1 = 8191$
+$M51 \rightarrow 2^82589933 -1$
 
 ## Teorema fundamental de la aritmetica
 
