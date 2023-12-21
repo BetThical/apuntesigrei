@@ -266,11 +266,11 @@ el menor entero $m$, $m|\frac{a}{m}$ , $\frac{b}{m} \quad \rightarrow **lcm(a,b)
 
 Complejidad logaritmica, $O(log(b)$
 
-$$gcd(a,b)\times lcm(a,b)=a\times b \rightarrow lcm(a,b)=\fraq{a\times b}{gcd(a,b)}$$
+$$gcd(a,b)\times lcm(a,b)=a\times b \rightarrow lcm(a,b)=\frac{a\times b}{gcd(a,b)}$$
 
 ## Teorema de BézoutG
 
-Sean $a$,$b$ enteros positivos, existen enteros $s$,$t$ tal que:
+Sean $a$, $b$ enteros positivos, existen enteros $s$,$t$ tal que:
 
 $$gcd(a,b) = s\times a + t\times b$$
 
