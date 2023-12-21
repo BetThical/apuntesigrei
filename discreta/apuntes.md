@@ -215,7 +215,7 @@ Complejidad logaritmica; **$O(log(b))$
 
 Sean $a$, $b$ , $a\geq b$
 
-$a \underline{|b}\qquad $   $gcd(a,b)=gcd(b,r)$ 
+$a \underline{|b}\qquad$   $gcd(a,b)=gcd(b,r)$ 
 $r$ $q$
 
 - DEMOSTRACION
