@@ -213,11 +213,11 @@ el mayor entero $d,  d|a,  d|b$ se llama $gcd(a,b)$
 
 Complejidad logaritmica; **$O(log(b))$
 
-Sean $a$,$b$, $a\geq b$
+Sean $a$, $b$ , $a\geq b$
 
 $a \underline{|b}$
 
-$r\t q$
+$r$ $q$
 
     a | b
       ---      gcd(a,b) == gcd(b,r)
