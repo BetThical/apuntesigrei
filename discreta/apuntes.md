@@ -278,7 +278,7 @@ $$gcd(a,b) = s\times a + t\times b$$
 
 $gcd(258,198)$
 
-$252 \ \underline{| 298}\qquad 198 \ \underline{| 54}\qquad 54 \ \underline{| 36}$ 
+$252 \ \underline{| 298}\qquad \quad 198 \ \underline{| 54}\qquad \quad 54 \ \underline{| 36}$ 
 
 $54\quad \underbrace{1}\qquad 36\quad \underbrace{3}\qquad 18\quad \underbrace{1}\qquad $
 
