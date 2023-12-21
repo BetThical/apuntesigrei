@@ -198,7 +198,7 @@ Todo entero positivo $>1$ se puede factorizar de manera ÚNICA como un numero pr
 
 ## Teorema (is_prime() ? )
 
-Si $n$ es un numero compuesto, $n$ tiene un divisor primo $d$, $k \geq sqrt{n}$
+Si $n$ es un numero compuesto, $n$ tiene un divisor primo $d$, $k \geq \sqrt{n}$
 
 ## Criba de Eratostenes
 
