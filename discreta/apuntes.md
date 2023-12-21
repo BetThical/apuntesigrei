@@ -225,23 +225,23 @@ $r$ $q$
 
 - EJEMPLO
 
-$662 \underline{| 414} \qquad$   $gcd(662,414)=gcd(414,248)=gcd(248,166)=gcd(166,82)=gcd(2,0)=2$ 
+$662 \ \underline{| 414} \qquad$   $gcd(662,414)=gcd(414,248)=gcd(248,166)=gcd(166,82)=gcd(2,0)=2$ 
 
 $248$ $\underbrace{1}$
 
-$414 \underline{| 248}$ 
+$414 \ \underline{| 248}$ 
 
 $166$ $\underbrace{1}$
 
-$248 \underline{| 166}$ 
+$248 \ \underline{| 166}$ 
 
 $82$ $\underbrace{1}$
 
-$166 \underline{| 82}$ 
+$166 \ \underline{| 82}$ 
 
 $02$ $\underbrace{1}$
 
-$82 \underline{| 2}$ 
+$82 \ \underline{| 2}$ 
 
 $0$ $\underbrace{41}$
 
