@@ -259,8 +259,8 @@ $0$ $\underbrace{41}$
 
 ## Minimo Comun Multiplo (a,b)
 
-Sean a y b enteros positivos, al menos uno de ellos !=0,
-el menor entero ```m | a/m && b/m``` se llama **lcm(a,b)**
+Sean a y b enteros positivos, al menos uno de ellos $\neq 0$,
+el menor entero $m$, $m|\frac{a}{m}$ , $\frac{b}{m}\quad \rightarrow **lcm(a,b)$**
 
 ### Algoritmo de Euclides para hallar el lcm
 
