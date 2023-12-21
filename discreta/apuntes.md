@@ -225,9 +225,9 @@ $r$ $q$
 
 - EJEMPLO
 
-$$662 \ \underline{| 414} \qquad   gcd(662,414)=gcd(414,248)=gcd(248,166)=gcd(166,82)=gcd(2,0)=2$$
+$662 \ \underline{| 414} \qquad   gcd(662,414)=gcd(414,248)=gcd(248,166)=gcd(166,82)=gcd(2,0)=2$
 
-$$248 \quad \underbrace{1}$$
+$248 \quad \underbrace{1}$
 
 $414 \ \underline{| 248}$ 
 
