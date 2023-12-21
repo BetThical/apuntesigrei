@@ -278,20 +278,15 @@ $$gcd(a,b) = s\times a + t\times b$$
 
 $gcd(258,198)$
 
-$252 \ \underline{| 298}\qquad \quad 198 \ \underline{| 54}\qquad \quad 54 \ \underline{| 36}$ 
+$252 \ \underline{| 198}\qquad \quad 198 \ \underline{| 54}\qquad \quad 54 \ \underline{| 36}$ 
 
 $54\quad \underbrace{1}\qquad 36\quad \underbrace{3}\qquad 18\quad \underbrace{1}\qquad $
-
-
-    252 |198     198 |54     54  |36
-        ----         ----        ----
-    54   1       36   3    18     1
-    
-    54 = 252 - 198
-    36 = 198 - 3*54
-    18 = 54 - 36 = 54 - (198-3*54) = 4*54 - 198 = 4*(252-198)-198 = 4*252 - 5*198
-
-    =======>  s = 4, t=5
+```math
+54 = 252 - 198
+36 = 198 - 3\times 54
+18 = 54 - 36 = 54 - (198-3\times 54) = 4*\times 54 - 198 = 4\times (252-198)-198 = 4\times 252 - 5\times 198
+```
+$\longrightarrow s = 4$,  $t=5$
 
 ## Relacion de primos entre si
 
