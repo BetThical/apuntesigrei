@@ -270,13 +270,18 @@ $$gcd(a,b)\times lcm(a,b)=a\times b \rightarrow lcm(a,b)=\frac{a\times b}{gcd(a,
 
 ## Teorema de BézoutG
 
-Sean $a$, $b$ enteros positivos, existen enteros $s$,$t$ tal que:
+Sean $a$, $b$ enteros positivos, existen enteros $s$, $t$ tal que:
 
 $$gcd(a,b) = s\times a + t\times b$$
 
 ### Algoritmo de Euclides para calcular coeficientes de Bezout(s,t)
 
-    gcd(258,198)
+$gcd(258,198)$
+
+$252 \ \underline{| 298}\qquad 198 \ \underline{| 54}\qquad 54 \ \underline{| 36}$ 
+
+$54\quad \underbrace{1}\qquad 36\quad \underbrace{3}\qquad 18\quad \underbrace{1}\qquad $
+
 
     252 |198     198 |54     54  |36
         ----         ----        ----
