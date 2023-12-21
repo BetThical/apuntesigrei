@@ -198,7 +198,7 @@ Todo entero positivo $>1$ se puede factorizar de manera ÚNICA como un numero pr
 
 ## Teorema (is_prime() ? )
 
-Si $n$ es un numero compuesto, $n$ tiene un divisor primo $d$, $k \geq \sqrt{n}$
+Si $n$ es un numero compuesto, $n$ tiene un divisor primo $d$, $k \leq \sqrt{n}$
 
 ## Criba de Eratostenes
 
@@ -206,8 +206,8 @@ La criba de Eratóstenes es un algoritmo que permite hallar todos los números p
 
 ## Maximo Comun Divisor (a,b)
 
-Sean a y b enteros positivos, al menos uno de ellos != 0, 
-el mayor entero ```d | d/a && d/b``` se llama **gcd(a,b)**a
+Sean a y b enteros positivos, al menos uno de ellos $/neq 0$, 
+el mayor entero $d,  d|a,  d|b$ se llama $gcd(a,b)$
 
 ### Algoritmo de Euclides para hallar el gcd(a,b)
 
