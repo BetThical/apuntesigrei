@@ -206,14 +206,18 @@ La criba de Eratóstenes es un algoritmo que permite hallar todos los números p
 
 ## Maximo Comun Divisor (a,b)
 
-Sean a y b enteros positivos, al menos uno de ellos $/neq 0$, 
+Sean $a$ y $b$ enteros positivos, al menos uno de ellos $/neq 0$, 
 el mayor entero $d,  d|a,  d|b$ se llama $gcd(a,b)$
 
 ### Algoritmo de Euclides para hallar el gcd(a,b)
 
-Complejidad logaritmica; **O(log(b))**
+Complejidad logaritmica; **$O(log(b))$
 
-Sean a,b, a>=b
+Sean $a$,$b$, $a\geq b$
+
+$a \underline{|b}$
+
+$r\t q$
 
     a | b
       ---      gcd(a,b) == gcd(b,r)
