@@ -215,17 +215,13 @@ Complejidad logaritmica; **$O(log(b))$
 
 Sean $a$, $b$ , $a\geq b$
 
-$a \underline{|b}$
+$a \underline{|b}$   $gcd(a,b)=gcd(b,r)$ 
 
 $r$ $q$
 
-    a | b
-      ---      gcd(a,b) == gcd(b,r)
-    r   q    
-
 - DEMOSTRACION
 
-    Dado que ```a = qb + r```, sea d un divisor de a y de b --> ```d/r, a - qb = r```
+    Dado que $a = q\times b + r$, (sea d un divisor de a y de b) $\rightarrow$ $si d | r$, $a - q\times b = r$
 
 - EJEMPLO
         
