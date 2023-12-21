@@ -194,11 +194,11 @@ $M51 \rightarrow 2^{82589933} -1$
 
 ## Teorema fundamental de la aritmetica
 
-Todo entero positivo >1 se puede factorizar de manera ÚNICA como un numero primo o producto de ellos, donde dos factores prioms estén escritos en orden  **no descendente** 
+Todo entero positivo $>1$ se puede factorizar de manera ÚNICA como un numero primo o producto de ellos, donde dos factores primos estén escritos en orden  **no descendente** 
 
 ## Teorema (is_prime() ? )
 
-Si n es un numero compuesto, n tiene un divisor primo <= que la raiz cuadrada de n
+Si $n$ es un numero compuesto, $n$ tiene un divisor primo $d$, $k \geq sqrt{n}$
 
 ## Criba de Eratostenes
 
