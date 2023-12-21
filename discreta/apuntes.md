@@ -211,11 +211,12 @@ el mayor entero $d,  d|a,  d|b$ se llama $gcd(a,b)$
 
 ### Algoritmo de Euclides para hallar el gcd(a,b)
 
-Complejidad logaritmica; **$O(log(b))$
+Complejidad logaritmica; $O(log(b))$
 
 Sean $a$, $b$ , $a\geq b$
 
 $a \underline{|b}\qquad$   $gcd(a,b)=gcd(b,r)$ 
+
 $r$ $q$
 
 - DEMOSTRACION
@@ -223,28 +224,26 @@ $r$ $q$
     Dado que $a = q\times b + r$, (sea d un divisor de a y de b) $\rightarrow$ si $d | r$, $a - q\times b = r$
 
 - EJEMPLO
-        
-        662 | 414        gcd(662,414) = gcd(414,248)  = gcd(248,166) = gcd(166,82) = gcd (2,0) = 2
-            -----       
-        248   1
 
-        414 | 248
-            -----
-        166   1
+$662 \underline{| 414}$   $gcd(662,414)=gcd(414,248)=gcd(248,166)=gcd(166,82)=gcd(2,0)=2$ 
 
-        248 | 166
-            -----
-        82   1
+$248$ $1$
 
-        166 | 82
-            -----
-        02   2
+$414 \underline{| 248}$ 
 
-        82 | 2
-            -----
-        00   41
+$166$ $1$
 
+$248 \underline{| 166}$ 
 
+$82$ $1$
+
+$166 \underline{| 82}$ 
+
+$02$ $1$
+
+$82 \underline{| 2}$ 
+
+$0$ $41$
 
 - PSEDOCODIGO
         
