@@ -284,19 +284,19 @@ $54\quad \underbrace{1}\qquad 36\quad \underbrace{3}\qquad 18\quad \underbrace{1
 ```math
 54 = 252 - 198
 36 = 198 - 3\times 54
-18 = 54 - 36 = 54 - (198-3\times 54) = 4*\times 54 - 198 = 4\times (252-198)-198 = 4\times 252 - 5\times 198
+18 = 54 - 36 = 54 - (198-3\times 54) = 4\times 54 - 198 = 4\times (252-198)-198 = 4\times 252 - 5\times 198
 ```
 $\longrightarrow s = 4$,  $t=5$
 
 ## Relacion de primos entre si
 
-Sean a,b enteros:
+Sean $a$, $b$ enteros:
 
-Son primos entre si (coprimos/relativmt primos entre si) si `gcd(a,b) = 1`
+Son primos entre si (coprimos/relativmt primos entre si) si $gcd(a,b) = 1$
 
 =====================
 
-Sean a1,a2,...,an:
+Sean $\{a1,a2,...,an\}$ :
 
 Son relativamente primos si `gcd(ai,aj) = 1 | i!=j`
 
