@@ -33,12 +33,14 @@
 - $p\implies q$ : falso se $p$ verdade e $q$ falso
 
 #### Exemplo
-```math
-(p\land q)\implies r
+
+$$(p\land q)\implies r$$
+```
    f
   / \
  v   f
 / \
 v v
 ```
+
 $(p\land q)\implies r$ e falsa se p,q verdade e r falso$
