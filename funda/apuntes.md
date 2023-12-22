@@ -12,6 +12,8 @@
 3. Nada que non resulte das reglas anteriores e proposicion
 4. Usanse parenteses para deixar clara a forma da proposicion
 
+### Taboas de verdade
+
 | p | $\neg p$ |
 | - | -------- |
 | V | F |
@@ -19,8 +21,9 @@
 
 | p | q | $p\lor q$ | $p\land q$ | $p\implies q$ |
 | - | - | --------- | ---------- | ------------- |
-| V | V | V | V | V |
-| V | F | V | F | F |
+| V | V | V | **V** | V |
+| V | F | V | F | **F** |
 | F | V | V | F | V |
-| F | F | F | F | V |
+| F | F | **F** | F | V |
 
+- **Valores distinguidos**: caso exclusivo no q cambia o valor de verdade
