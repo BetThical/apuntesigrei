@@ -12,6 +12,11 @@
 3. Nada que non resulte das reglas anteriores e proposicion
 4. Usanse parenteses para deixar clara a forma da proposicion
 
+| p | $\neg p$ |
+| - | -------- |
+| V | F |
+| F | V |
+
 | p | q | $p\lor q$ | $p\land q$ | $p\implies q$ |
 | - | - | --------- | ---------- | ------------- |
 | V | V | V | V | V |
