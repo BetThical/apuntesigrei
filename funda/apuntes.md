@@ -43,4 +43,23 @@ $(p\land q)\implies r$
 v v
 ```
 
-$(p\land q)\implies r$ e falsa se p,q verdade e r falso$
+$(p\land q)\implies r$ e falsa se $p$ ,$q$ verdade e $r$ falso
+
+### "Tipos" de proposicions
+
+ - **Tautoloxias**: só poden ser verdade
+ - **Contradicions**: so poden ser falsas
+ - **Continxentes**: poden tomar ambos valores
+
+### Equivalencia semantica 
+
+Mesmos valores de variables, proposicions con mesmos valores de verdade
+
+
+$p\land q \equiv p\equiv p\lor q$
+
+$p\implies q\equiv \neg p \lor q$
+
+$\neg (p\land q)\equiv \neg p \lor \neg q$
+
+$\neg (p\lor q)\equiv \neg p \land \neg q$
