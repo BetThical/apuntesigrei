@@ -34,7 +34,7 @@
 
 #### Exemplo
 
-$$(p\land q)\implies r$$
+$(p\land q)\implies r$
 ```
    f
   / \
