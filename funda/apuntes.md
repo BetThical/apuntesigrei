@@ -3,7 +3,7 @@
 ## Calculo de proposicions
 
 - Alfabeto: $p$ , $q$ , $r$ ,...
-- Conectores: $\neg $ , $\land $ , $\lor $ , $\implies $
+- Conectores: $\neg$ , $\land $ , $\lor$ , $\implies$
 
 1. Toda letra do alfabeto e unha proposicion
 2. Sendo $a$ e $b$ proposicions
