@@ -12,7 +12,7 @@
 3. Nada que non resulte das reglas anteriores e proposicion
 4. Usanse parenteses para deixar clara a forma da proposicion
 
-### Taboas de verdade
+### Taboas de verdade (metodo NON recomendado)
 
 | p | $\neg p$ |
 | - | -------- |
@@ -26,4 +26,19 @@
 | F | V | V | F | V |
 | F | F | **F** | F | V |
 
-- **Valores distinguidos**: caso exclusivo no q cambia o valor de verdade
+### Valores distinguidos (mellor opcion)
+
+- $p\lor q$ : verdade se $p$ , $q$ verdade 
+- $p\land q$ : falso se $p$ , $q$ falso
+- $p\implies q$ : falso se $p$ verdade e $q$ falso
+
+#### Exemplo
+```math
+(p\land q)\implies r
+   f
+  / \
+ v   f
+/ \
+v v
+```
+$(p\land q)\implies r$ e falsa se p,q verdade e r falso$
