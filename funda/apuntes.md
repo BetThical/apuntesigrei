@@ -51,18 +51,7 @@ $(p\land q)\rightarrow r$ e falsa se $p$ ,$q$ verdade e $r$ falso
  - **Contradicions**( $\bot$ ): so poden ser falsas
  - **Continxentes**: poden tomar ambos valores
 
-### Equivalencia semantica 
 
-Mesmos valores de variables, proposicions con mesmos valores de verdade
-
-
-$p\land q \equiv p\equiv p\lor q$
-
-$p\rightarrow q\equiv \neg p \lor q$
-
-$\neg (p\land q)\equiv \neg p \lor \neg q$
-
-$\neg (p\lor q)\equiv \neg p \land \neg q$
 
 ### Consecuencias semanticas
 
@@ -92,6 +81,27 @@ $p\rightarrow r \nvDash r$
 
 De esta forma, $r$ é verdadeira en todos os casos, pois se fose falsa, non se cumpriria  a proposicion para $p$ verdadeira
 
+**EXEMPLO**
+
 - $\underline{\vDash ^? (\neg p \rightarrow q)\rightarrow [(\neg p \rightarrow \neg q)\rightarrow p]}$
 - $\overline{\underline{\neg p \rightarrow q\vDash ^? (\neg p\rightarrow \neg q)\rightarrow p}}$
 - $\overline{\neg p \rightarrow q, \neg p \rightarrow\neg q\vDash ^? p}$
+
+- Esta consecuencia semantica so se cumple se $p$ e $q$ son verdadeiras
+
+### Equivalencia semantica 
+
+Mesmos valores de variables, proposicions con mesmos valores de verdade
+
+
+$p\land q \equiv p\equiv p\lor q$
+
+$p\rightarrow q\equiv \neg p \lor q$
+
+$\neg (p\land q)\equiv \neg p \lor \neg q$
+
+$\neg (p\lor q)\equiv \neg p \land \neg q$
+
+
+- $\underline{p\equiv q}$
+- $overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
