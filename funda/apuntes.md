@@ -111,4 +111,4 @@ $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
 
 #### Regras basicas
 
-![regras](reglasArbores.png Regras")
+![regras](images/reglasArbores.png Regras")
