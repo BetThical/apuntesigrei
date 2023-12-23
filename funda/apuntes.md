@@ -68,4 +68,4 @@ $\neg (p\lor q)\equiv \neg p \land \neg q$
 
 $p\vDash q$ : $q$ é consecuencia semantica de $p$ cando para todos os casos onde $p$ é V, $q$ é V
 
-se $p\vDash q$ , $p\implies q (T)$
+se $p\vDash$ , entón $p\implies q\quad (\top)$
