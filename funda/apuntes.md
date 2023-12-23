@@ -106,3 +106,9 @@ $\neg (p\lor q)\equiv \neg p \land \neg q$
 $\underline{p\equiv q}$
 
 $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
+
+### Arbores semanticas
+
+#### Regras basicas
+
+![regras](reglasArbores.png Regras")
