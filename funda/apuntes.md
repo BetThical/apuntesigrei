@@ -103,5 +103,6 @@ $\neg (p\land q)\equiv \neg p \lor \neg q$
 $\neg (p\lor q)\equiv \neg p \land \neg q$
 
 
-- $\underline{p\equiv q}$
-- $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
+$\underline{p\equiv q}$
+
+$\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
