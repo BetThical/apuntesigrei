@@ -83,3 +83,15 @@ $\vDash p$ denota que $p$ e tautoloxia
     - $\underline{p_1,p_2,...,p_k\vDash q}$
     - $\overline{\underline{p_1\land ...\land p_k\vDash q}}$
     - $\overline{\vDash (p_1\land ...\land p_k)\rightarrow q}$
+
+### Regra da deducion
+
+$p,p\rightarrow r \vDash r$
+
+$p\rightarrow r \nvDash r$
+
+De esta forma, $r$ é verdadeira en todos os casos, pois se fose falsa, non se cumpriria  a proposicion para $p$ verdadeira
+
+- $\underline{\vDash ^? (\neg p \rightarrow q)\rightarrow [(\neg p \rightarrow \neg q)\rightarrow p]}$
+- $\overline{\underline{\neg p \rightarrow q\vDash ^? (\neg p\rightarrow \neg q)\rightarrow p}}$
+- $\overline{\neg p \rightarrow q, \neg p \rightarrow\neg q\vDash ^? p}$
