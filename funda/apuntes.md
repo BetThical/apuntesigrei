@@ -79,6 +79,7 @@ $p\vDash \top ,\forall p$
 $\vDash p$ denota que $p$ e tautoloxia
 
 - Se $p$ é cons. semantica de varias proposicions $p_1,p_2,...,p_k$
-        - $\underline{p_1,p_2,...,p_k\vDash q}$
-        - $\overline{\underline{p_1\land ...\land p_k\vDash q}}$
-        - $\overline{\vDash (p_1\land ...\land p_k)\implies q}$
+        
+    - $\underline{p_1,p_2,...,p_k\vDash q}$
+    - $\overline{\underline{p_1\land ...\land p_k\vDash q}}$
+    - $\overline{\vDash (p_1\land ...\land p_k)\implies q}$
