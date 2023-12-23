@@ -63,3 +63,9 @@ $p\implies q\equiv \neg p \lor q$
 $\neg (p\land q)\equiv \neg p \lor \neg q$
 
 $\neg (p\lor q)\equiv \neg p \land \neg q$
+
+### Consecuencias semanticas
+
+$p\vDash q$ : $q$ é consecuencia semantica de $p$ cando para todos os casos onde $p$ é V, $q$ é V
+
+se $p\vDash q$ , $p\implies q (T)$
