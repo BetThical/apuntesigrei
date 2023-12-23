@@ -47,8 +47,8 @@ $(p\land q)\implies r$ e falsa se $p$ ,$q$ verdade e $r$ falso
 
 ### "Tipos" de proposicions
 
- - **Tautoloxias**: só poden ser verdade
- - **Contradicions**: so poden ser falsas
+ - **Tautoloxias( $\top$ )**: só poden ser verdade
+ - **Contradicions**( $\bot$ ): so poden ser falsas
  - **Continxentes**: poden tomar ambos valores
 
 ### Equivalencia semantica 
@@ -68,4 +68,17 @@ $\neg (p\lor q)\equiv \neg p \land \neg q$
 
 $p\vDash q$ : $q$ é consecuencia semantica de $p$ cando para todos os casos onde $p$ é V, $q$ é V
 
-se $p\vDash$ , entón $p\implies q\quad (\top)$
+se $p\vDash q$ , entón $p\implies q\quad (\top)$
+
+$p\vDash q$ e $q\vDash p$ son condicions necesarias para que $p\equiv q$
+
+$\bot \vDash p, /forall p$
+
+$p\vDash \top ,\forall p$
+
+$\vDash p$ denota que $p$ e tautoloxia
+
+- Se $p$ é cons. semantica de varias proposicions $p_1,p_2,...,p_k$
+        - $\underline{p_1,p_2,...,p_k\vDash q}$
+        - $\overline{\underline{p_1\land ...\land p_k\vDash q}}$
+        - $\overline{\vDash (p_1\land ...\land p_k)\implies q}$
