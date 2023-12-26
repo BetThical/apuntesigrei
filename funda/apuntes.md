@@ -197,10 +197,10 @@ $\mathcal{U} =$ Persoas da clase
 Para negar esto usamos $\neg \forall x\alpha \equiv \exists x \neg \alpha$
 
 "Todos temos polo menos un amigo(podemos ser nos)"
--$\mathcal{U} \vDash \forall x \exists y A(x,y)$
+- $\mathcal{U} \vDash \forall x \exists y A(x,y)$
 
 "Cada un e amigo de si mesmo"
--$\mathcal{U} \forall x A(x,x)$
+- $\mathcal{U} \forall x A(x,x)$
 
 "Todos temos polo menos un amigo(non podemos ser nos)" (haberia q interpretar o '=')
 - $\mathcal{U} \vDash \forall x \exists y A(x,y) \land \neg (x=y)$
