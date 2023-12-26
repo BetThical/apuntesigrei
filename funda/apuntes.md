@@ -112,3 +112,20 @@ $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
 #### Regras basicas
 
 ![regras](images/reglasArbores.png "Regras")
+
+#### Demostrar unha contradicion
+ 
+![contradicion](images/contradicion.png "Contradicion")
+
+#### Demostrar a equivalencia de duas proposicions
+
+debido a:
+
+$\underline{p\equiv q}$
+
+$\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
+
+para comprobar q $p$ e $q$ son equiivalentes debemos comprobar que
+
+$(p\rightarrow q)\land (q\rightarrow p) (\bot)\qquad$ (contradicion)
+
