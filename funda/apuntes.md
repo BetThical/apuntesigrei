@@ -241,4 +241,25 @@ $$\mathcal{U} \vDash \forall x \alpha \lor \forall x \beta$$
 
 ![Desenvolvemento](images/desenvolvemento.png "Desenv")
 
+# Teoria de Conxuntos
 
+$x \in y\qquad$ "x é un elemento de y" (predicado binario)
+
+$x \subseteqq y\quad$ $\forall t (t\in x \rightarrow t\in y)$ "x contido en y" (subconxunto)
+
+$x = y\quad$ $x\subseteqq y \land y\subseteqq x$
+
+## Operacions
+
+- **Union**
+    - $X\bigcup Y\qquad$  $t\in (X\bigcup Y)$ : $\quad t\in X \lor t\in Y$
+- **Interseccion**
+    - $X\bigcap Y\qquad$ $t\in (x\bigcap Y)$ : $\quad t\in X \land t\in Y$
+- Conxunto baleiro
+    - $\emptyset$
+
+| simbolos conxuntos | equivalencias |
+| ------------------ | ------------- |
+| $\subseteqq$ | $\rightarrow$ |
+| $\cap$ | $\land$ |
+| $\cup$ | $\lor$ |
