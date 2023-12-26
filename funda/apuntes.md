@@ -209,13 +209,14 @@ Para negar esto usamos $\neg \forall x\alpha \equiv \exists x \neg \alpha$
 
 - Formula 1
 
-Se o primeiro e verdade, o segundo o sera en todos os universos 
 
 $$\mathcal{U} \vDash \forall x(\alpha \rightarrow \beta)$$
 
 $$\downarrow \downarrow \downarrow$$
 
 $$\mathcal{U} \vDash \forall x \alpha \rightarrow \forall x\beta$$
+
+Se o primeiro e verdade, o segundo o sera en todos os universos (ao invertilo non funciona)
 
 **Comprobacion**
 
@@ -227,5 +228,17 @@ $$\underline{\overline{\forall x\alpha \land \neg \forall x \beta}}$$
 $$\overline{\forall x\alpha \land \exists \neg \beta}$$
 
 E dicir, todos os q teñen $\alpha$, teñen $\beta$
+
+- Formula 2
+
+$$\mathcal{U} \vDash \forall x (I(x)\rightarrow P(x))$$
+
+$$\uparrow \uparrow \uparrow$$
+
+$$\mathcal{U} \vDash \forall x \alpha \lor \forall x \beta$$
+
+#### Desenvolvemento de formulas
+
+![Desenvolvemento](images/desenvolvemento.png "Desenv")
 
 
