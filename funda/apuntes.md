@@ -125,7 +125,7 @@ $\underline{p\equiv q}$
 
 $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
 
-para comprobar q $p$ e $q$ son equiivalentes debemos comprobar que
+para comprobar que $p$ e $q$ son equiivalentes debemos comprobar que
 
-$(p\rightarrow q)\land (q\rightarrow p) (\bot)\qquad$ (contradicion)
+$\neg [(p\rightarrow q)\land (q\rightarrow p)]\quad (\bot)\qquad$ (contradicion)
 
