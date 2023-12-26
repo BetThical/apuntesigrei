@@ -245,9 +245,9 @@ $$\mathcal{U} \vDash \forall x \alpha \lor \forall x \beta$$
 
 $x \in y\qquad$ "x é un elemento de y" (predicado binario)
 
-$x \subseteqq y\quad$ $\forall t (t\in x \rightarrow t\in y)$ "x contido en y" (subconxunto)
+$x \subseteq y\quad$ $\forall t (t\in x \rightarrow t\in y)$ "x contido en y" (subconxunto)
 
-$x = y\quad$ $x\subseteqq y \land y\subseteqq x$
+$x = y\quad$ $x\subseteq y \land y\subseteqq x$
 
 ## Operacions
 
@@ -260,6 +260,6 @@ $x = y\quad$ $x\subseteqq y \land y\subseteqq x$
 
 | simbolos conxuntos | equivalencias |
 | ------------------ | ------------- |
-| $\subseteqq$ | $\rightarrow$ |
+| $\subseteq$ | $\rightarrow$ |
 | $\cap$ | $\land$ |
 | $\cup$ | $\lor$ |
