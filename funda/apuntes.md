@@ -163,15 +163,15 @@ $\neg [(p\rightarrow q)\land (q\rightarrow p)]\quad (\bot)\qquad$ (contradicion)
 
 ### Formulas (unha formula so e certa se os seus elementos foron interpretados para un universo)
 
-- Universo ($\mathcall{U}$): numeros enteros (0,1,2,3,4,...)
+- Universo ($\mathcal{U}$): numeros enteros (0,1,2,3,4,...)
 - Interpretacion
-    - $0^0$ : elemento de $\mathcall{U}$ que sea igual a 0
+    - $0^0$ : elemento de $\mathcal{U}$ que sea igual a 0
         - A partir de 0 elemenentos fabrica 1
-    - $S^1$ : func. q transforma un elemento de $\mathcall{U}$ no seu seguinte
+    - $S^1$ : func. q transforma un elemento de $\mathcal{U}$ no seu seguinte
         - $x\implies sx$
     - $+^2$ : func q a partir de dous elementos crea outro distinto
         - $(x,y)\implies +(x,y)$
-    - $<^2$ : verifica a existencia dun conx de 2 elementos nunha parte de $\mathcall{U} \times \mathcall{U}$
+    - $<^2$ : verifica a existencia dun conx de 2 elementos nunha parte de $\mathcal{U} \times \mathcall{U}$
 
 $\neg \forall x \alpha \equiv \exists x\neg \alpha$
 
@@ -183,7 +183,7 @@ $\neg \exists x\alpha \equiv \forall x\neg \alpha$
 
 #### Exemplo de Universo (so fago un, na bitacora 5 hai dous mais)
 
-$\mathcall{U} =$ Persoas da clase
+$\mathcal{U} =$ Persoas da clase
 
 - $P$: nacer en Pontevedra
 - $O$: nacer en Ourense
@@ -192,12 +192,18 @@ $\mathcall{U} =$ Persoas da clase
 - $A$: 2 persoas son amigas (pred binario)
 
 "Todos os q naceron en Pontevedra teñen un amigo q non e de Ourense"
-- $\mathcall{U} \vDash \forall x [P(x)\rightarrow \exists y (A(x,y)\land \neg O(y))]$
+- $\mathcal{U} \vDash \forall x [P(x)\rightarrow \exists y (A(x,y)\land \neg O(y))]$
 
 Para negar esto usamos $\neg \forall x\alpha \equiv \exists x \neg \alpha$
 
 "Todos temos polo menos un amigo(podemos ser nos)"
--$\mathcall{U} \vDash \forall x \exists y A(x,y)$
+-$\mathcal{U} \vDash \forall x \exists y A(x,y)$
 
-¨
+"Cada un e amigo de si mesmo"
+-$\mathcal{U} \forall x A(x,x)$
+
+"Todos temos polo menos un amigo(non podemos ser nos)" (haberia q interpretar o '=')
+- $\mathcal{U} \vDash \forall x \exists y A(x,y) \land \neg (x=y)$
+
+
 
