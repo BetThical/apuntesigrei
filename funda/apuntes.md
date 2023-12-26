@@ -213,14 +213,18 @@ Se o primeiro e verdade, o segundo o sera en todos os universos
 
 ```math
 \mathcal{U} \vDash \forall x(\alpha \rightarrow \beta)
+
 \downarrow \downarrow \downarrow
+
 \mathcal{U} \vDash \forall x \alpha \rightarrow \forall x\beta
 ```
 **Comprobacion**
 
 ```math
 \underline{\neg (\forall x\alpha \rightarrow \forall x \beta)}
+
 \underline{\overline{\forall x\alpha \land \neg \forall x \beta}}
+
 \overline{\forall x\alpha \land \exists \neg \beta}
 ```
 E dicir, todos os q teñen $\alpha$, teñen $\beta$
