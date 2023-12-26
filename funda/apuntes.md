@@ -200,10 +200,29 @@ Para negar esto usamos $\neg \forall x\alpha \equiv \exists x \neg \alpha$
 - $\mathcal{U} \vDash \forall x \exists y A(x,y)$
 
 "Cada un e amigo de si mesmo"
-- $\mathcal{U} \forall x A(x,x)$
+- $\mathcal{U} \vDash \forall x A(x,x)$
 
 "Todos temos polo menos un amigo(non podemos ser nos)" (haberia q interpretar o '=')
 - $\mathcal{U} \vDash \forall x \exists y A(x,y) \land \neg (x=y)$
 
+#### Formulas certas en calquer universo
+
+- Formula 1
+
+Se o primeiro e verdade, o segundo o sera en todos os universos 
+
+```math
+\mathcal{U} \vDash \forall x(\alpha \rightarrow \beta)
+\downarrow \downarrow \downarrow
+\mathcal{U} \vDash \forall x \alpha \rightarrow \forall x\beta
+```
+**Comprobacion**
+
+```math
+\underline{\neg (\forall x\alpha \rightarrow \forall x \beta)}
+\underline{\overline{\forall x\alpha \land \neg \forall x \beta}}
+\overline{\forall x\alpha \land \exists \neg \beta}
+```
+E dicir, todos os q teñen $\alpha$, teñen $\beta$
 
 
