@@ -107,6 +107,11 @@ $\underline{p\equiv q}$
 
 $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
 
+
+$\underline{(p\lor q)\rightarrow r}$
+
+$\overline{(p\rightarrow r)\land (q\rightarrow r)}$
+
 ### Arbores semanticas
 
 #### Regras basicas
@@ -119,7 +124,9 @@ $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
 
 #### Demostrar a equivalencia de duas proposicions
 
-debido a:
+**Tautoloxia = contradicion dunha negacion**
+
+Enton, tendo en conta:
 
 $\underline{p\equiv q}$
 
@@ -128,4 +135,69 @@ $\overline{\vDash (p\rightarrow q)\land (q\rightarrow p)}$
 para comprobar que $p$ e $q$ son equiivalentes debemos comprobar que
 
 $\neg [(p\rightarrow q)\land (q\rightarrow p)]\quad (\bot)\qquad$ (contradicion)
+
+## Calculo de predicados
+
+- Linguaxe
+    - **Variables**: $x, y , z,...$
+    - **Funcions**: $f,g,h,...$
+    - **Predicados**: $P,Q,R,...$
+    - **Conectores**: $\neg ,\rightarrow ,\land ,\lor$
+    - **Cuantificadores**: $\forall ,\exists $
+
+- **Aridade**: numero de elementos necesarios para dar significado ao q temos escrito
+    - Pode ser calquer enteiro non negativo
+    - As funcions **0-arias** chamanse constantes
+
+- Termos
+    - Variable
+    - $f\quad$ funcion $n-aria$
+        - $f\quad t_1,t_2,...,t_n$
+
+- Formulas
+    - $P\quad$ n-aria
+    - $\alpha \beta$
+    - $\alpha\quad$ formula
+    
+    - $\forall x \alpha\quad$   es formula
+
+### Formulas (unha formula so e certa se os seus elementos foron interpretados para un universo)
+
+- Universo ($\mathcall{U}$): numeros enteros (0,1,2,3,4,...)
+- Interpretacion
+    - $0^0$ : elemento de $\mathcall{U}$ que sea igual a 0
+        - A partir de 0 elemenentos fabrica 1
+    - $S^1$ : func. q transforma un elemento de $\mathcall{U}$ no seu seguinte
+        - $x\implies sx$
+    - $+^2$ : func q a partir de dous elementos crea outro distinto
+        - $(x,y)\implies +(x,y)$
+    - $<^2$ : verifica a existencia dun conx de 2 elementos nunha parte de $\mathcall{U} \times \mathcall{U}$
+
+$\neg \forall x \alpha \equiv \exists x\neg \alpha$
+
+- "Se no todos nacimos en Santiago, exist alguien q no nacio en Santiago"
+
+$\neg \exists x\alpha \equiv \forall x\neg \alpha$
+
+- "Si no existe alguien q naciera en Santaigo, nadie nacio en Santiago"
+
+#### Exemplo de Universo (so fago un, na bitacora 5 hai dous mais)
+
+$\mathcall{U} =$ Persoas da clase
+
+- $P$: nacer en Pontevedra
+- $O$: nacer en Ourense
+- $L$: nacer en Lugo
+- $C$: nacer na Coruña
+- $A$: 2 persoas son amigas (pred binario)
+
+"Todos os q naceron en Pontevedra teñen un amigo q non e de Ourense"
+- $\mathcall{U} \vDash \forall x [P(x)\rightarrow \exists y (A(x,y)\land \neg O(y))]$
+
+Para negar esto usamos $\neg \forall x\alpha \equiv \exists x \neg \alpha$
+
+"Todos temos polo menos un amigo(podemos ser nos)"
+-$\mathcall{U} \vDash \forall x \exists y A(x,y)$
+
+¨
 
