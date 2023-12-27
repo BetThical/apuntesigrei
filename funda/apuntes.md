@@ -406,11 +406,17 @@ $f(x) = x^2$
 
 ![Aplicacion4](images/ap4.png "Aplicacion4")
 
-### Composicion 
+### Composicion (demostracions propiedades bitacora 9)
 
 ![Composicion](images/composicion.png "Comp")
 
-- Se $f: A\rightarrow B,\quad g: B\rightarrow C$, son inxectivas, $g\circ f: A\rightarrow C$ é inxectiva
+- Se $f: A\rightarrow B,\quad g: B\rightarrow C$ , son inxectivas, $g\circ f: A\rightarrow C$ é inxectiva
 - Se $g\circ f: A\rightarrow C$ é inxectiva, $f$ é inxectiva
+- Se $f: A\rightarrow B,\quad g: B\rightarrow C$ , son sobres, $g\circ f: A\rightarrow C$ é sobre 
+- Se $g\circ f: A\rightarrow C$ é sobre, $g$ é sobre, pero $f$ nn ten por que
+
+### Contar elementos dun conxunto
+
+![Contar](images/contar.png "Contar")
 
 
