@@ -296,6 +296,7 @@ $A\backslash B$
         - $\overline{x\in A\land (x\notin B)\lor x\notin C}$
         
         - Demostracion grafica do segundo
+        
 ![Grafica](images/demGrafica.png "Demostracion Grafica")
 
 
