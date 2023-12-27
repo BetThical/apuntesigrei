@@ -171,7 +171,7 @@ $\neg [(p\rightarrow q)\land (q\rightarrow p)]\quad (\bot)\qquad$ (contradicion)
         - $x\implies sx$
     - $+^2$ : func q a partir de dous elementos crea outro distinto
         - $(x,y)\implies +(x,y)$
-    - $<^2$ : verifica a existencia dun conx de 2 elementos nunha parte de $\mathcal{U} \times \mathcall{U}$
+    - $<^2$ : verifica a existencia dun conx de 2 elementos nunha parte de $\mathcal{U} \times \mathcal{U}$
 
 $\neg \forall x \alpha \equiv \exists x\neg \alpha$
 
@@ -263,3 +263,7 @@ $x = y\quad$ $x\subseteq y \land y\subseteqq x$
 | $\subseteq$ | $\rightarrow$ |
 | $\cap$ | $\land$ |
 | $\cup$ | $\lor$ |
+
+## Demostraciones de conxuntos
+
+$A\subseteq (A\cup B)\quad ¿?$
