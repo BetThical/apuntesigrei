@@ -299,14 +299,14 @@ $A\backslash B$
         
 ![Grafica](images/demGrafica.png "Demostracion Grafica")
 
-$P(A)$ : **PARTES DE A**
+## $P(A)$ : **PARTES DE A**
 
 - $x\in P(A):= x\subseteq A$
 - $\emptyset=$ { }, pero $P(\emptyset) = $ { $\emptyset$ }
 
-## Exercicio conxuntos vacios
+### Exercicio conxuntos vacios
 
-$\emptyset \in $ { $\emptyset$ } : correcto
+$\emptyset \in$ { $\emptyset$ } : correcto
 
 { $\emptyset$ }  $\in$ { $\emptyset,$ { $\emptyset$ }} : correcto
 
