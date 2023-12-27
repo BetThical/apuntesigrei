@@ -303,8 +303,8 @@ $A\backslash B$
 
 ## $P(A)$ : **PARTES DE A**
 
-$|A| = n\rigtharrow |P(A)| = 2^n$
-- $|A| es el cardinal, o numero de elementos de A$
+$|A| = n\rightarrow |P(A)| = 2^n$
+- $|A| \text{es el cardinal, o numero de elementos de A}$
 
 
 - $x\in P(A):= x\subseteq A$
