@@ -318,14 +318,14 @@ $\emptyset \in$ { $\emptyset$ } : correcto
 
 { $\emptyset$ } $\subseteq$ { $\emptyset,$ { $\emptyset$ }} : correcto
 
-### Exemplos de conxuntos con partes
+### Exemplos de demostracions de conxuntos con partes
 $P(A) \cup P(B) = P(A\cup B) \quad ¿?$
 
 1. $P(A) \cup P(B) \subseteq P(A\cup B) ¿?$
     - $x\in P(A)\cup P(B)$
         - $x\in P(A)\equiv x\subseteq A\implies x\subseteq (A\cup B)$
         - $x\in P(B)\equiv x\subseteq B\implies x\subseteq (A\cup B)$
-    - x\in P(A\cup B) (1) e correcto)
+    - $x\in P(A\cup B)$ (1 é correcto)
 
 2. $P(A\cup B)\subseteq P(A)\cup P(B) ¿?$
     - $x\in P(A\cup B)\equiv x\subseteq A\cup B$
@@ -335,10 +335,60 @@ $P(A) \cup P(B) = P(A\cup B) \quad ¿?$
         - $A\cup B =$ { $1,2$ }
         - $P(A\cup B) =$ { $\emptyset$ ,{ $1$ },{ $2$ }, { $1,2$ }}
         - $P(A)\cup P(B)=$ { $\emptyset$ ,{ $1$ },{ $2$ }}
-        - No caben todos los elementos de $A\cup B$ en $A\lor B$
+        - No caben todos os elementos de $A\cup B$ en $A\lor B\quad$ (2 é incorrecto)
 
+## Aplicacions
 
+$$f: A\rightarrow B$$
 
+**Condiciones para ser aplicacion**
+
+- Universalidad: $\forall x (x\in A\rightarrow \exists y y\in B \land y=f(x))$
+    - Todo elemento de A ten imaxe en B
+- Unicidad: $forall x\forall y_1 \forall y_2 (f(x) = y_1\land f(x) = y_2 \rightarrow y_1 = y_2)$
+    - A imaxe de A en B debe ser unica
+
+### Exemplos
+
+$f: \mathbb{Z} \rightarrow \mathbb{Z}$
+
+$f(x) = x^2$
+
+- Universal: todo enteiro ten cadrado
+- Unica: Non existe enteiro con dous cadrados distintos
+
+$f: \mathbb{Z} \rightarrow \mathbb{Z}$
+
+$(x) = \sqrt{x}$
+
+- Non universal: os enteiros negativos non teñen raiz enteira
+- Non unica: $2 = f(4) = -2$
+
+### Inxectividade
+
+$f: A\rightarrow B\quad$ inxectiva se:
+- $\forall x_1 \forall x_2 (f(x_1) = f(x_2)\rightarrow x_1=x_2)$
+
+$f: \mathbb{Z} \rightarrow \mathbb{Z}$
+
+$f(x) = x^2$
+
+- Non inxectiva porque $f(-2) = f(2)\land 2\neq -2$
+
+### Sobrexectividade
+
+$f: A\rightarrow B\quad$ sobre se:
+- $\forall y(y\in B\rightarrow \exists x (x\in A \land f(x)=y))$
+
+$f: \mathbb{Z} \rightarrow \mathbb{Z}$
+
+$f(x) = x^2$
+
+- Non sobre porque non todos os enteiros son resultado do cadrado doutro enteiro
+
+### Inxectiva + Sobre = BIXECTIVA
+
+### Exemplos graficos
 
 
 
