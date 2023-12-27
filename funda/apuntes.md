@@ -251,6 +251,8 @@ $x = y\quad$ $x\subseteq y \land y\subseteqq x$
 
 ## Operacions
 
+- *Producto Cartesiano*
+    - $A\times B = {(x,y) | x\in A \land y\in B)}$ 
 - **Union**
     - $X\bigcup Y\qquad$  $t\in (X\bigcup Y)$ : $\quad t\in X \lor t\in Y$
 - **Interseccion**
@@ -301,15 +303,44 @@ $A\backslash B$
 
 ## $P(A)$ : **PARTES DE A**
 
-- $x\in P(A):= x\subseteq A$
-- $\emptyset=$ { }, pero $P(\emptyset) = $ { $\emptyset$ }
+$|A| = n\rigtharrow |P(A)| = 2^n$
+- $|A| es el cardinal, o numero de elementos de A$
 
-### Exercicio conxuntos vacios
+
+- $x\in P(A):= x\subseteq A$
+- $\emptyset=$ { }, pero $P(\emptyset) =$ { $\emptyset$ }
+
+### Exercicio conxuntos vacios (mas ejemplos en ej. 4 del boletin (bitacora 12))
 
 $\emptyset \in$ { $\emptyset$ } : correcto
 
 { $\emptyset$ }  $\in$ { $\emptyset,$ { $\emptyset$ }} : correcto
 
 { $\emptyset$ } $\subseteq$ { $\emptyset,$ { $\emptyset$ }} : correcto
+
+### Exemplos de conxuntos con partes
+$P(A) \cup P(B) = P(A\cup B) \quad ¿?$
+
+1. $P(A) \cup P(B) \subseteq P(A\cup B) ¿?$
+    - $x\in P(A)\cup P(B)$
+        - $x\in P(A)\equiv x\subseteq A\implies x\subseteq (A\cup B)$
+        - $x\in P(B)\equiv x\subseteq B\implies x\subseteq (A\cup B)$
+    - x\in P(A\cup B) (1) e correcto)
+
+2. $P(A\cup B)\subseteq P(A)\cup P(B) ¿?$
+    - $x\in P(A\cup B)\equiv x\subseteq A\cup B$
+        - Usamos un exemplo onde $A=$ { $1$ }, $B=$ { $2$ }
+        - $P(A)=$ { $\emptyset$ , $A$ } $=$ { $\emptyset$ , $1$ }
+        - $P(B)=$ { $\emptyset$ , $B$ } $=$ { $\emptyset$ , $2$ }
+        - $A\cup B =$ { $1,2$ }
+        - $P(A\cup B) =$ { $\emptyset$ ,{ $1$ },{ $2$ }, { $1,2$ }}
+        - $P(A)\cup P(B)=$ { $\emptyset$ ,{ $1$ },{ $2$ }}
+        - No caben todos los elementos de $A\cup B$ en $A\lor B$
+
+
+
+
+
+
 
 
