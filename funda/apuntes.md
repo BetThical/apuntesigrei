@@ -267,3 +267,5 @@ $x = y\quad$ $x\subseteq y \land y\subseteqq x$
 ## Demostraciones de conxuntos
 
 $A\subseteq (A\cup B)\quad ¿?$
+
+- $\forall x (x\in A) \rightarrow x\in (A\cup B) \quad \equiv \quad x\in A\lor x\in B$
