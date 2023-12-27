@@ -256,7 +256,7 @@ $x = y\quad$ $x\subseteq y \land y\subseteqq x$
 - **Interseccion**
     - $X\bigcap Y\qquad$ $t\in (x\bigcap Y)$ : $\quad t\in X \land t\in Y$
 - Conxunto baleiro
-    - $\emptyset$
+    - $\emptyset\qquad$ $forall x \neg(x\in \emptyset) \equiv \neg \exists x(x\in \emptyset)$
 
 | simbolos conxuntos | equivalencias |
 | ------------------ | ------------- |
@@ -299,7 +299,17 @@ $A\backslash B$
         
 ![Grafica](images/demGrafica.png "Demostracion Grafica")
 
+$P(A)$ : **PARTES DE A**
 
+- $x\in P(A):= x\subseteq A$
+- $\emptyset=$ { }, pero $P(\emptyset) = $ { $\emptyset$ }
 
+## Exercicio conxuntos vacios
+
+$\emptyset \in $ { $\emptyset$ } : correcto
+
+{ $\emptyset$ }  $\in$ { $\emptyset,$ { $\emptyset$ }} : correcto
+
+{ $\emptyset$ } $\subseteq$ { $\emptyset,$ { $\emptyset$ }} : correcto
 
 
