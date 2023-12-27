@@ -343,9 +343,9 @@ $$f: A\rightarrow B$$
 
 **Condiciones para ser aplicacion**
 
-- Universalidad: $\forall x (x\in A\rightarrow \exists y y\in B \land y=f(x))$
+- Universalidad: $\forall x (x\in A\rightarrow \exists y (y\in B \land (y=f(x))))$
     - Todo elemento de A ten imaxe en B
-- Unicidad: $forall x\forall y_1 \forall y_2 (f(x) = y_1\land f(x) = y_2 \rightarrow y_1 = y_2)$
+- Unicidad: $\forall x, \forall y_1, \forall y_2 (((f(x) = y_1)\land (f(x) = y_2)) \rightarrow y_1 = y_2)$
     - A imaxe de A en B debe ser unica
 
 ### Exemplos
@@ -390,7 +390,7 @@ $f(x) = x^2$
 
 ### Exemplos graficos
 
-####Aplicacion sobre, non ixectiva
+#### Aplicacion sobre, non inxectiva
 
 ![Aplicacion1](images/ap1.png "Aplicacion1")
 
@@ -406,5 +406,11 @@ $f(x) = x^2$
 
 ![Aplicacion4](images/ap4.png "Aplicacion4")
 
+### Composicion 
+
+![Composicion](images/composicion.png "Comp")
+
+- Se $f: A\rightarrow B,\quad g: B\rightarrow C$, son inxectivas, $g\circ f: A\rightarrow C$ é inxectiva
+- Se $g\circ f: A\rightarrow C$ é inxectiva, $f$ é inxectiva
 
 
