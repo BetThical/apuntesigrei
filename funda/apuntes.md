@@ -390,7 +390,21 @@ $f(x) = x^2$
 
 ### Exemplos graficos
 
+####Aplicacion sobre, non ixectiva
 
+![Aplicacion1](images/ap1.png "Aplicacion1")
+
+#### Aplicacion inxectiva, non sobre
+
+![Aplicacion2](images/ap2.png "Aplicacion2")
+
+#### Non aplicacion
+
+![Aplicacion3](images/ap3.png "Aplicacion3")
+
+#### Aplicacion sobre, non inxectiva
+
+![Aplicacion4](images/ap4.png "Aplicacion4")
 
 
 
