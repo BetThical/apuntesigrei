@@ -284,12 +284,12 @@ $A\cup \emptyset = A\quad ¿?$
         -  $\exists x(x\in A \lor \neg x\in A)\land (x\in \emptyset \lor \neg x\in A)$
         -  Aqui atopamos unha contradicion
 
-$A\backshlash B$
+$A\backslash B$
 
-- $x\in (A\backshlash B) = x\in A \land x\notin B$
+- $x\in (A\backslash B) = x\in A \land x\notin B$
 - Podemos agora asumir o conxunto C tal que
-    - $\underline{x\in (A\backshlash B) = x\in A \land x\notin B}$
-    - $\overline{x\in A\backslash (B\cup C) = (A\backshlash B)\cup (A\\C)}$
+    - $\underline{x\in (A\backslash B) = x\in A \land x\notin B}$
+    - $\overline{x\in A\backslash (B\cup C) = (A\backslash B)\cup (A\\C)}$
         - Demosracion de lo primero $\downarrow$
         - $\underline{x\in A\backslash (B\cap C)}$
         - $\overline{\underline{x\in A \land x\notin (B\cap C)}}$
