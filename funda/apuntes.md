@@ -289,14 +289,14 @@ $A\backslash B$
 - $x\in (A\backslash B) = x\in A \land x\notin B$
 - Podemos agora asumir o conxunto C tal que
     - $\underline{x\in (A\backslash B) = x\in A \land x\notin B}$
-    - $\overline{x\in A\backslash (B\cup C) = (A\backslash B)\cup (A\\C)}$
+    - $\overline{x\in A\backslash (B\cup C) = (A\backslash B)\cup (A\backslash C)}$
         - Demosracion de lo primero $\downarrow$
         - $\underline{x\in A\backslash (B\cap C)}$
         - $\overline{\underline{x\in A \land x\notin (B\cap C)}}$
         - $\overline{x\in A\land (x\notin B)\lor x\notin C}$
         
         - Demostracion grafica do segundo
-        - ![Grafica](images/demGrafica.png "Demostracion Grafica")
+![Grafica](images/demGrafica.png "Demostracion Grafica")
 
 
 
