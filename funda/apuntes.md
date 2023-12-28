@@ -441,3 +441,19 @@ $A=$ { $a_1,...,a_nb$ } $\qquad 2=$ { $0,1$ }
     - $X_{C_1}(x)=1=X_{C_2} \rightarrow x\in C_2\qquad$ é inxectiva 
 
 - Se $f: A\rightarrow$ { $0,1$ }, enton $f\in$ { $0,1$ } $^ A$
+- $\exists c\in P(A) \land c\subseteq A\rightarrow X_C = f$
+- $C =$ { $x\in A | f(x)=1$ } $\quad \forall x X_C = f(x)$
+- $X_c(a)$ 
+    - = $1 \quad se\quad a\in C\qquad f(x)=1$
+    - = $0\quad se \quad a\notin C\qquad f(x)=0$
+
+- É sobre
+
+# Ppio de Induccion matematica
+
+$$[P(0) \land \forall k (P(k)  \rightarrow P(k+1))] \rightarrow \forall n P(n)$$
+
+1. Paso base $P(0)$
+2. Paso Indutico $\forall k (P(k) \rightarrow P(k+1))$
+3. Hipotese de Induccion
+    - Suponemos $P(k)$ como verdaeira, enton comprobamo se se verifica P(k+1)
