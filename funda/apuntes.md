@@ -457,3 +457,16 @@ $$[P(0) \land \forall k (P(k)  \rightarrow P(k+1))] \rightarrow \forall n P(n)$$
 2. Paso Indutico $\forall k (P(k) \rightarrow P(k+1))$
 3. Hipotese de Induccion
     - Suponemos $P(k)$ como verdaeira, enton comprobamo se se verifica P(k+1)
+
+## Conxeturar formula para as sumas das potencias de 2 por induccion
+
+$P_n = 2^0 +2^1 + 2^2 + 2^3 + ... + 2^n$
+
+| $n$ | $$P_N$$ |
+| --- | ------- |
+| $0$ | $$2^0 = 1$$ |
+| $1$ | $$2^1 = 1$$ |
+| $2$ | $$2^2 = 4$$ |
+| $3$ | $$2^3 = 8$$ |
+
+
