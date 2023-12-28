@@ -415,8 +415,23 @@ $f(x) = x^2$
 - Se $f: A\rightarrow B,\quad g: B\rightarrow C$ , son sobres, $g\circ f: A\rightarrow C$ é sobre 
 - Se $g\circ f: A\rightarrow C$ é sobre, $g$ é sobre, pero $f$ nn ten por que
 
-### Contar elementos dun conxunto
+### Aplicacions bixectivas
 
-![Contar](images/contar.png "Contar")
+As aplicaicons buxectivas sirven para contar elementos dun conxunto
 
+Un conxunto A existe se existe B contido en A, é distinto e é bixeccion de B en A
 
+$B\subset A, f: B\rightarrow A\quad \text{bixeccion}$
+
+#### Exemplos de uso bixeccion
+
+Dados $A,B$ conxuntos, $B^A:=\quad$ { $f: A\rightarrow B|\text{f aplicado}$ }
+
+$A=$ { $a_1,...,a_nb$ } $\qquad 2=$ { $0,1$ }
+
+- $\left| 2^A\right| = (2\cdot 2\cdot 2\cdot ...)^{\text{n veces}} = 2^n\qquad$ Cada termo de A ten 2 opcions
+- Se teño $C\subseteq A$
+    - $X_c: \quad A\rightarrow $ { $0,1$ }
+    - $X_c(a)$ 
+        - = $1 \quad se\quad a\in C$
+        - = $0\quad se \quad a\notin C$
