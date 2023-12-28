@@ -431,7 +431,13 @@ $A=$ { $a_1,...,a_nb$ } $\qquad 2=$ { $0,1$ }
 
 - $\left| 2^A\right| = (2\cdot 2\cdot 2\cdot ...)^{\text{n veces}} = 2^n\qquad$ Cada termo de A ten 2 opcions
 - Se teño $C\subseteq A$
-    - $X_c: \quad A\rightarrow $ { $0,1$ }
+    - $X_c: \quad A\rightarrow$ { $0,1$ }
     - $X_c(a)$ 
         - = $1 \quad se\quad a\in C$
         - = $0\quad se \quad a\notin C$
+
+- $X_{C_1} = X_{C_2} \rightarrow C_1=C_2\quad ¿?$
+    - $x\in C_1 ¿\rightarrow ? x\in C_2$
+    - $X_{C_1}(x)=1=X_{C_2} \rightarrow x\in C_2\qquad$ é inxectiva 
+
+- Se $f: A\rightarrow$ { $0,1$ }, enton $f\in$ { $0,1$ } $^ A$
