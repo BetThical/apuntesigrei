@@ -458,7 +458,7 @@ $$[P(0) \land \forall k (P(k)  \rightarrow P(k+1))] \rightarrow \forall n P(n)$$
 3. Hipotese de Induccion
     - Suponemos $P(k)$ como verdaeira, enton comprobamo se se verifica P(k+1)
 
-## Conxeturar formula para as sumas das potencias de 2 por induccion
+## Conxeturar formula para as sumas das potencias de 2 por induccion (mais exemplos na bitacora 10)
 
 $P_n = 2^0 +2^1 + 2^2 + 2^3 + ... + 2^n$
 
@@ -477,3 +477,26 @@ Conxetura $\implies 2^{n+1} -1$
     - $P_k = 2^{k+1} - 1\qquad P_{k+1} = 2^{k+1+1} - 1)$ 
     - $P_k =  2^0 + 2^1 + 2^2 + 2^3 + ... + 2^k$
         - $P_{k+1} =  2^0 + 2^1 + 2^2 + 2^3 + ... + 2^k + 2^{k+1} = P_k + 2^{k+1} = 2^{k+1} - 1 + 2^{k+1} = 2\cdot 2^{k+1} -1 = 2^{k+2}-1$
+
+## Conxeturar por induccion cando a proppiedade se cumple a partir dun valor concreto de $n$ (mais exemplos en bitacora 11)
+
+(neste caso buscaremos relacion entre)
+
+| $n$ | $n^2$ | 2^n |
+| --- | ----- | --- | 
+| $0$ | $0$ | $1$ | 
+| $1$ | $1$ | $2$ | 
+| $2$ | $4$ | $4$ | 
+| $3$ | $9$ | $8$ | 
+| $4$ | $16$ | $16$ | 
+| $5$ | $25$ | $32$ | 
+| $6$ | $36$ | $64$ | 
+
+- Paso Base ( $P_B$ ): Con $n=4,\quad 2^4\geq 4^2 \quad (16=16)$
+- Paso indutivo: $k\geq 4,\qquad (2^k \geq k^2) \rightarrow 2^{k+1} \geq (k+1)^2$
+- Hipotese de induccion (supoñendo $2^k\geq k^2$)
+    - $2^{k+1} = 2\cdot 2^k$ 
+    - $(k+1)^2 = k^2 + 2k +1$
+    - $2k^2\geq k^2 + 2k + 1$
+    - $k^2\geq 2k+1$
+    - $k(k-2)\geq 1\qquad$ verificase
