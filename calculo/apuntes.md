@@ -10,10 +10,10 @@
 
 #### Th. Valor Intermedio**
 
-    $$f:\quad [a,b]\longrightarrow \mathbb{R}$$
-    $$f(a) < f(b)\implies \forall z, f(a)<z<f(b),\exists \alpha \in (a,b), f(\alpha)=z$$
+$$f:\quad [a,b]\longrightarrow \mathbb{R}$$
+$$f(a) < f(b)\implies \forall z, f(a)<z<f(b),\exists \alpha \in (a,b), f(\alpha)=z$$
 
-$f(a)\cdot f(b) <0\implies z=0$ é valor intermedio (raiz)
+$f(a)\cdot f(b) <0 \implies z=0$ é valor intermedio (raiz)
 
 Se ademais $f'(x) /neq 0,\quad \forall x \in (a,b)\implies\text{ a raiz e unica}$
 
