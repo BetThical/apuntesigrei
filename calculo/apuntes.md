@@ -1,6 +1,6 @@
 # Localizacion de raíces nunha ecuacion ou sistema
 
-- **Atopar raíces** -> (puntos onde $f(x_i)=0$ )
+- **Atopar raíces** --> (puntos onde $f(x_i)=0$ )
 
 ## Métodos de converxencia garantida
 
@@ -27,9 +27,9 @@ Se ademais de ter raiz, $f'(x)\neq 0$ no intervalo $(a,b)$
 Sendo os extremos do intervalo $x_a, x_b$
 
 - $x_r = \frac{x_a + x_b}{2}$, *é dicir, o punto intermedio de* $(x_a,x_b)$ ; neste punto existen **3 posibilidades**
-    - $f(x_a)\cdot f(x_r)=0$ -> **a raíz será** $x_r$
-    - $f(x_a)\cdot f(x_r)>0$ -> a raiz estará no intervalo $(x_r,x_b)$ ; repetimos o metodo nese intervalo
-    - $f(x_a)\cdot f(x_r)<0$ -> a raiz estará no intervalo $(x_a,x_r)$ ; repetimos o metodo nese intervalo
+    - $f(x_a)\cdot f(x_r)=0$ --> **a raíz será** $x_r$
+    - $f(x_a)\cdot f(x_r)>0$ --> a raiz estará no intervalo $(x_r,x_b)$ ; repetimos o metodo nese intervalo
+    - $f(x_a)\cdot f(x_r)<0$ --> a raiz estará no intervalo $(x_a,x_r)$ ; repetimos o metodo nese intervalo
 
 Sendo $k$ os pasos realizados, e $x_k = x_r$ para cada caso:
 
