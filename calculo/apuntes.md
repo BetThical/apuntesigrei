@@ -41,7 +41,7 @@ O erro reducirase a metade en cada paso, e poderiamos facer o metodo ata que che
 #### Atopar k necesario para obter un erro menor dun $\epsilon$ dado
 
 - $\frac{b-a}{\epsilon} < 2^k$. (aplicando log neperianos)
-    - $k > \frac{ ln( \frac{b-a}{\epsilon} ) }{ln(2)$ (para facilitar os calculos usar log base 2)
+    - $k > ln(\frac{b-a}{\epsilon}) / ln(2)$ (para facilitar os calculos usar log base 2)
 
 
 
