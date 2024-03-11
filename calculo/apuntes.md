@@ -33,7 +33,7 @@ Sendo os extremos do intervalo $x_a, x_b$
 
 Sendo $k$ os pasos realizados, e $x_k = x_r$ para cada caso:
 
- - A cota de erro do metodo é $e_k := \left| \alpha - x_k\right| \leq (\fraq {1}{2})^k \cdot (b-a)$
+ - A cota de erro do metodo é $e_k := \left| \alpha - x_k\right| \leq (\frac{1}{2})^k \cdot (b-a)$
  - Sendo a raiz procurada $\alpha = \lim{k \to \infty} x_k$
 
 O erro reducirase a metade en cada paso, e poderiamos facer o metodo ata que chegue ata unha certa tolerancia
@@ -41,7 +41,7 @@ O erro reducirase a metade en cada paso, e poderiamos facer o metodo ata que che
 #### Atopar k necesario para obter un erro menor dun $\epsilon$ dado
 
 - $\frac{b-a}{\epsilon} < 2^k$. (aplicando log neperianos)
-    - $k > \frac{ln(\frac{b-a}{\epsilon})}{ln(2)$ (para facilitar os calculos usar log base 2)
+    - $k > \frac{ ln( \frac{b-a}{\epsilon} ) }{ln(2)$ (para facilitar os calculos usar log base 2)
 
 
 
