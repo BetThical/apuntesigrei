@@ -1,31 +1,47 @@
-# Ecuacions e sistemas de Ecuacions no Lineais
+# Localizacion de raíces nunha ecuacion ou sistema
 
-- dada $f: \mathbb{R} \longrightarrow \mathbb{R}$ (no lineal), atopar $x\in \mathbb{R} \quad \text{tal que} \quad f(x)=0$ para unha ecuacion
+- **Atopar raíces** -> (puntos onde $f(x_i)=0$ )
 
-- dada $f: \mathbb{R}^n \longrightarrow \mathbb{R}^n$ (no lineal), atopar $x=(x_1,...,x_n)^t \in \mathbb{R}^n \quad \text{tal que} \quad f(x)=0$ para un sistema de ecuacions
+## Métodos de converxencia garantida
 
-## Metodos converxencia garantizada
+### Th. Valor Intermedio 
 
-### Existencia raices
+*f continua en [a,b], acadará todos os valores entre f(a) e f(b)*
 
-#### Th. Valor Intermedio**
+Sexa $f[a,b]\longrightarrow \mathbb{R}$ continua en $[a,b]$ ,  $f(a)<f(b)$ , enton:
 
-$$f:\quad [a,b]\longrightarrow \mathbb{R}$$
-$$f(a) < f(b)\implies \forall z, f(a)<z<f(b),\exists \alpha \in (a,b), f(\alpha)=z$$
+- $\forall z,\quad f(a) < z < f(b)\qquad \exists \alpha \in (a,b), f(\alpha )= z$
 
-$f(a)\cdot f(b) <0 \implies z=0$ é valor intermedio (raiz)
+Se ademais, $f(a)\cdot f(b) < 0$ , entón:
 
-Se ademais $f'(x) /neq 0,\quad \forall x \in (a,b)\implies\text{ a raiz e unica}$
+- $\exists z=0$ , polo que dicimos que ten raíz
 
-#### Metodo de biseccion (como busqueda binaria)
+Se ademais de ter raiz, $f'(x)\neq 0$ no intervalo $(a,b)$
 
-- Ir facendo e comprobando se $f(x_r) = \frac{x_a + x_b}{2} = 0$
-    - Se o é, $f(x_r)=0$ 
-    - Se $f(x_a)\cdot x_r<0$, $f$ ten raiz en $(x_a,x_r)$ (repitese o proceso)
-    - Se $f(x_a)\cdot x_r>0$, $f$ ten raiz en $(x_r,x_b)$ (repitese o proceso) 
+- A raíz é única
 
-- $e_k = \left| \alpha - x_k\right| \leq \frac{1}{2^k} (b-a) < \epsilon$ (para un epsilon ou erro maximo dado)
-- $\frac{b-a}{\epsilon} < 2^k$ ; $ln(\frac{b-a}{\epsilon}) < k\cdot ln(2)$
+### Método de bixeccion
+
+*O obxetivo seria acotar o maximo posible a raiz unha vez sabemos que existe nese intervalo polo teorema anterior*
+
+Sendo os extremos do intervalo $x_a, x_b$
+
+- $x_r = \frac{x_a + x_b}{2}$, *é dicir, o punto intermedio de* $(x_a,x_b)$ ; neste punto existen **3 posibilidades**
+    - $f(x_a,x_r)=0$ -> **a raíz será** $x_r$
+    - $f(x_a,x_r)>0$ -> a raiz estará no intervalo $(x_r,x_b)$ ; repetimos o metodo nese intervalo
+    - $f(x_a,x_r)<0$ -> a raiz estará no intervalo $(x_a,x_r)$ ; repetimos o metodo nese intervalo
+
+Sendo $k$ os pasos realizados, e $x_k = x_r$ para cada caso:
+
+ - A cota de erro do metodo é $e_k := \left| \alpha - x_k\right| \leq (\fraq {1}{2})^k \cdot (b-a)$
+ - Sendo a raiz procurada $\alpha = \lim{k \to \infty} x_k$
+
+O erro reducirase a metade en cada paso, e poderiamos facer o metodo ata que chegue ata unha certa tolerancia
+
+#### Atopar k necesario para obter un erro menor dun $\epsilon$ dado
+
+- $\frac{b-a}{\epsilon} < 2^k$. (aplicando log neperianos)
+    - $k > \frac{ln(\frac{b-a}{\epsilon})}{ln(2)$ (para facilitar os calculos usar log base 2)
 
 
 
