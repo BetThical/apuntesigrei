@@ -27,9 +27,9 @@ Se ademais de ter raiz, $f'(x)\neq 0$ no intervalo $(a,b)$
 Sendo os extremos do intervalo $x_a, x_b$
 
 - $x_r = \frac{x_a + x_b}{2}$, *é dicir, o punto intermedio de* $(x_a,x_b)$ ; neste punto existen **3 posibilidades**
-    - $f(x_a,x_r)=0$ -> **a raíz será** $x_r$
-    - $f(x_a,x_r)>0$ -> a raiz estará no intervalo $(x_r,x_b)$ ; repetimos o metodo nese intervalo
-    - $f(x_a,x_r)<0$ -> a raiz estará no intervalo $(x_a,x_r)$ ; repetimos o metodo nese intervalo
+    - $f(x_a)\cdot f(x_r)=0$ -> **a raíz será** $x_r$
+    - $f(x_a)\cdot f(x_r)>0$ -> a raiz estará no intervalo $(x_r,x_b)$ ; repetimos o metodo nese intervalo
+    - $f(x_a)\cdot f(x_r)<0$ -> a raiz estará no intervalo $(x_a,x_r)$ ; repetimos o metodo nese intervalo
 
 Sendo $k$ os pasos realizados, e $x_k = x_r$ para cada caso:
 
@@ -41,7 +41,7 @@ O erro reducirase a metade en cada paso, e poderiamos facer o metodo ata que che
 #### Atopar k necesario para obter un erro menor dun $\epsilon$ dado
 
 - $\frac{b-a}{\epsilon} < 2^k$. (aplicando log neperianos)
-    - $k > ln(\frac{b-a}{\epsilon}) / ln(2)$ (para facilitar os calculos usar log base 2)
+    - $k > \frac{ln(\frac{b-a}{\epsilon})}{ln(2)}$ (para facilitar os calculos usar log base 2)
 
 
 
