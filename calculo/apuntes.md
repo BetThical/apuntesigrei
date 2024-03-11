@@ -8,7 +8,7 @@
 
 *f continua en [a,b], acadará todos os valores entre f(a) e f(b)*
 
-Sexa $f[a,b]\longrightarrow \mathbb{R}$ continua en $[a,b]$ ,  $f(a)<f(b)$ , enton:
+Sexa $f[a,b]\longrightarrow \mathbb{R}$ continua en $[a,b]$ ,  $f(a) < f(b)$ , enton:
 
 - $\forall z,\quad f(a) < z < f(b)\qquad \exists \alpha \in (a,b), f(\alpha )= z$
 
