@@ -63,7 +63,7 @@ $$m_1 \leq min_{x\in [a,b]} \left| f'(x)\right| \qquad max_{x\in [a,b]} \left| f
 
 Supoñemos $m_1>0$ ; dado $x_0\in [a,b] \text{, sexa } \{x_k\} _{k\in \mathbb{N}}$ a sucesion obtida por Newton-Raphson, supoñendo $x_k \in [a,b], \forall k/in /mathbb{N}$ , entón:
 
-- $\left| \alpha - x_{k+1}\right| \leq C\cdot \left| /alpha - x_k \right| ^2$
+- $\left| \alpha - x_{k+1}\right| \leq C\cdot \left| \alpha - x_k \right| ^2$
 - $C = \frac{M_2}{2\cdot m_1}$
 
 #### Teorema 2
@@ -72,9 +72,9 @@ Se temos:
 
 $$m_1 \leq min_{x\in [a,b]} \left| f'(x)\right| \qquad max_{x\in [a,b]} \left| f''(x)\right| \leq M_2$$
 
-Supoñemos $m_1>0$ ; dado $x_0\in [a,b] \text{, sexa } \{x_k\} _{k\in \mathbb{N}}$ a sucesion obtida por Newton-Raphson, supoñendo $x_k \in [a,b], \forall k/in /mathbb{N}$ , entón:
+Supoñemos $m_1>0$ ; dado $x_0\in [a,b] \text{, sexa } \{x_k\} _{k\in \mathbb{N}}$ a sucesion obtida por Newton-Raphson, supoñendo $x_k \in [a,b], \forall k\in \mathbb{N}$ , entón:
 
-- $\left| \alpha - x_{k+1}\right| \leq C\cdot \left| x_{k+1} - x_k  \right| ^2
+- $\left| \alpha - x_{k+1}\right| \leq C\cdot \left| x_{k+1} - x_k  \right| ^2$
 - $C = \frac{M_2}{2\cdot m_1}$
 
 Neste caso a cota de erro queda en funcion de duas iteracipns, puidendo saber asi o numero de iteracions necesario para obter un erro menor que a constante
